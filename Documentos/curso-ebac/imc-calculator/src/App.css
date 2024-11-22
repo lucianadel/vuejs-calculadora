@@ -1,0 +1,72 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #e0e0ff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+/* For mobile devices (phones) */
+@media (max-width: 767px) {
+  .App {
+    padding: 10px;
+  }
+  input, button {
+    font-size: 14px;
+    background-color: #f6e58d;
+  }
+}
+
+/* For tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .App {
+    padding: 20px;
+    background-color: #ffbe76;
+  }
+}
+
+/* For laptops and desktops */
+@media (min-width: 1024px) {
+  .App {
+    padding: 30px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  input, button {
+    font-size: 18px;
+    background-color: #7ed6df;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 20px;
+    background-color: #686de0;
+  }
+}
